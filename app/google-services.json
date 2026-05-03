@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "490025129808",
+    "project_id": "autocourier-t",
+    "storage_bucket": "autocourier-t.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490025129808:android:5b6eb97bad7657b7fcfe55",
+        "android_client_info": {
+          "package_name": "com.softcraft.autocourier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490025129808-1lsofcfv4r2kab64va4s683fv2knssl5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softcraft.autocourier",
+            "certificate_hash": "7a3b9a11acb12d4e19a5a5c2afd99cb34f354e3f"
+          }
+        },
+        {
+          "client_id": "490025129808-e59d5uuj60q5j5h5dm27rc504its5ade.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMWDzqHNyORsIJWssQcYkLED4C7g3YEqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490025129808-e59d5uuj60q5j5h5dm27rc504its5ade.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

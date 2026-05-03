@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackground"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_email_verification"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verify Your Email"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorPrimary"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email_instructions"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="?attr/colorOnBackground"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/tvEmailSentTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email: "
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorOnBackground"
+            android:layout_marginBottom="32dp" />
+
+        <Button
+            android:id="@+id/btnRefreshStatus"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="I've verified, continue"
+            android:backgroundTint="?attr/colorPrimary"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnResendEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resend verification email"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout and use different account"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+ />
+    </LinearLayout>
+
+    <!-- Loading Overlay -->
+    <RelativeLayout
+        android:id="@+id/loadingOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CC000000"
+        android:visibility="gone"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/progressBar"
+            android:layout_centerHorizontal="true"
+            android:text="Please wait..."
+            android:textColor="?attr/colorOnSurface"
+            android:layout_marginTop="16dp" />
+    </RelativeLayout>
+</RelativeLayout>
