@@ -59,4 +59,9 @@ dependencies {
     implementation("de.hdodenhof:circleimageview:3.1.0")
     // Source: https://mvnrepository.com/artifact/com.github.bumptech.glide/glide
     implementation("com.github.bumptech.glide:glide:5.0.7")
+
+    // Source: https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp
+    implementation("com.squareup.okhttp3:okhttp:5.3.2")
+    // Source: https://mvnrepository.com/artifact/com.google.code.gson/gson
+    implementation("com.google.code.gson:gson:2.14.0")
 }

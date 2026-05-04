@@ -28,4 +28,6 @@
     <b>Missing the email?</b>\n
     Kindly check your spam folder and mark it as <b>"Not Spam"</b>.
 </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
